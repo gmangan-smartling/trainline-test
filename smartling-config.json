@@ -1,0 +1,81 @@
+{
+  "locales": [
+    {
+      "name": "Chinese",
+      "smartling": "zh-CN",
+      "application": "zh"
+    },
+    {
+      "name": "Danish",
+      "smartling": "da-DK",
+      "application": "da"
+    },
+    {
+      "name": "Dutch",
+      "smartling": "nl-NL",
+      "application": "nl"
+    },
+    {
+      "name": "French",
+      "smartling": "fr-FR",
+      "application": "fr"
+    },
+    {
+      "name": "German",
+      "smartling": "de-DE",
+      "application": "de"
+    },
+    {
+      "name": "Italian",
+      "smartling": "it-IT",
+      "application": "it"
+    },
+    {
+      "name": "Japanese",
+      "smartling": "ja-JP",
+      "application": "ja"
+    },
+    {
+      "name": "Norwegian",
+      "smartling": "nb-NO",
+      "application": "nb"
+    },
+    {
+      "name": "Polish",
+      "smartling": "pl-PL",
+      "application": "pl"
+    },
+    {
+      "name": "Portuguese",
+      "smartling": "pt-BR",
+      "application": "pt"
+    },
+    {
+      "name": "Russian",
+      "smartling": "ru-RU",
+      "application": "ru"
+    },
+    {
+      "name": "Spanish",
+      "smartling": "es-ES",
+      "application": "es"
+    },
+    {
+      "name": "Swedish",
+      "smartling": "sv-SE",
+      "application": "sv"
+    }
+  ],
+  "resourceSets": [
+    {
+      "type": "android",
+      "pathRegex": "(?<parentOfValues>.+)/values/strings.*.xml",
+      "authorizeContent": "true",
+      "translationPathExpression": "${parentOfValues}/values-${locale}/${originalFile.name}",
+      "translationCommitMessage": "Translated ${originalFile.fullName.replaceFirst('^(?:(?:feature|component|core)/)?(.*?)/src/main/res/values/strings.xml$', '$1')} to ${locale}",
+      "smartlingDirectives": [
+        "smartling.string_format=icu"
+      ]
+    }
+  ]
+}
