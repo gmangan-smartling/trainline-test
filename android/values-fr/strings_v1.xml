@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ticket_1">Court</string>
+    <string name="ticket_2">Les cordes ici.</string>
+    <string name="ticket_3">Pour test.</string>
+
+</resources>

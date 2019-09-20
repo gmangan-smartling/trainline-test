@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ticket_options_item_cheapest_train_label_text">Cheapest</string>
+    <string name="ticket_options_item_bestforcomfort_train_label_text">Best for comfort</string>
+    <string name="ticket_options_standard_class_tab_name">Standard</string>
+    <string name="ticket_options_first_class_tab_name">First class</string>
+    <string name="ticket_options_no_standard_tickets_message">There are no standard tickets\nfor this journey.\n\nHave a safe journey!</string>
+    <string name="ticket_options_no_first_class_tickets_message">There are no first class tickets\nfor this journey.\n\nHave a safe journey!</string>
+    <string name="ticket_options_other_tickets">Other tickets</string>
+
+    <string name="ticket_selection_mobile_barcode_icon">Ticket selection mobile barcode icon image</string>
+
+    <!-- 1: outbound fare name, 2: inbound fare name. Both set from server response -->
+    <string name="ticket_selection_each_way_fare_name_format">%1$s \n + %2$s</string>
+    <string name="ticket_selection_each_way_fare_route_restrictions">Tickets may have route restrictions</string>
+
+    <string name="ticket_info_valid_from">Valid from</string>
+    <string name="ticket_info_validity">Ticket validity</string>
+
+    <plurals name="ticket_validity_travel_within_days">
+        <item quantity="one">Travel on the day</item>
+        <item quantity="other">Travel within %1$d days</item>
+    </plurals>
+    <plurals name="ticket_validity_outbound_within_weeks">
+        <item quantity="one">Travel within %1$d week</item>
+        <item quantity="other">Travel within %1$d weeks</item>
+    </plurals>
+    <plurals name="ticket_validity_outbound_within_months">
+        <item quantity="one">Travel within %1$d month</item>
+        <item quantity="other">Travel within %1$d months</item>
+    </plurals>
+    <plurals name="ticket_validity_travel_return_within_days">
+        <item quantity="one">Return same day</item>
+        <item quantity="other">Return within %1$d days</item>
+    </plurals>
+    <plurals name="ticket_validity_return_within_weeks">
+        <item quantity="one">Return within %1$d week</item>
+        <item quantity="other">Return within %1$d weeks</item>
+    </plurals>
+    <plurals name="ticket_validity_return_within_months">
+        <item quantity="one">Return within %1$d month</item>
+        <item quantity="other">Return within %1$d months</item>
+    </plurals>
+
+    <string name="ticket_options_semi_flexible_group">Semi-flexible</string>
+    <string name="ticket_options_flexible_group">Flexible</string>
+    <string name="ticket_options_cheapest_available_group">Cheapest Available</string>
+    <string name="ticket_options_cheapest_and_semi_fleixible"><![CDATA[Cheapest & semi-flexible]]></string>
+    <string name="ticket_options_cheapest_and_flexible"><![CDATA[Cheapest & flexible]]></string>
+
+    <string name="ticket_options_journey_info_departure_outbound_direction">Outbound</string>
+    <string name="ticket_options_journey_info_departure_inbound_direction">Inbound</string>
+
+    <!-- 1: journey direction e.g outbound or inbound, 2: day and date. Both set programmatically-->
+    <string name="ticket_options_journey_info_departure_date">%1$s: %2$s</string>
+    <string name="ticket_options_journey_info_view_details">view details</string>
+    <string name="ticket_options_some_tickets_are_not_fully_flexible">Some tickets are not fully flexible</string>
+
+    <string name="ticket_options_comfort_class_leg_description_format_with_train_identifier" translatable="false">%1$s - %2$s: %3$s</string>
+    <string name="ticket_options_comfort_class_leg_description_format" translatable="false">%1$s - %2$s</string>
+
+    <string name="ticket_options_comfort_class_price_delta_format" translatable="false">+%1$s</string>
+
+    <string name="ticket_options_journey_serviced_bus">This journey is serviced by a bus</string>
+    <string name="ticket_options_book_on">Book on %1$s</string>
+    <string name="ticket_options_comfort_class_leg_description_available_on">Available on: %1$s</string>
+
+    <string name="ticket_options_comfort_voucher_applied">Voucher applied</string>
+
+</resources>
