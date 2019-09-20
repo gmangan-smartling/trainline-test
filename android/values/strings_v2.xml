@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ticket_1">Another</string>
+    <string name="ticket_2">string.</string>
+    <string name="ticket_3">for translation</string>
+
+</resources>
