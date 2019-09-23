@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="t_1">Different branch test</string>
+    <string name="t_2">Checking</string>
+    <string name="t_3">Will this be picked up?</string>
+
+</resources>
