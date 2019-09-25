@@ -4,5 +4,5 @@
     <string name="t_1">Different branch test</string>
     <string name="t_2">Checking</string>
     <string name="t_3">Will this be picked up?</string>
-
+    <string name="t_4">This is additional.</string>
 </resources>
