@@ -68,15 +68,15 @@
   ],
   "resourceSets": [
     {
-      "type": "android",
-      "pathRegex": "android\\/values\\/strings.+\\.xml",
+      "type": "json",
+      "pathRegex": "locales\\/en-GB\\/(?!(config|links)).*\\.json",
       "authorizeContent": "true",
-      "translationPathExpression": "android/values-${locale}/${originalFile.name}",
-      "translationCommitMessage": "Translated ${originalFile.fullName.replaceFirst('^(?:(?:feature|component|core)/)?(.*?)/src/main/res/values/strings.xml$', '$1')} to ${locale}",
+      "translationPathExpression": "locales/${locale}/${originalFile.name}",
+      "translationCommitMessage": "Translations for ${originalFile.fullName}",
       "smartlingDirectives": [
-        "smartling.string_format=icu"
+        "smartling.string_format=icu",
+        "smartling.placeholder_format_custom=(\\{.*?\\})|(\\{.*\\n\\})"
       ]
     }
   ]
 }
-
