@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-    <string name="key_1">Courts</string>
-    <string name="key_2">Les cordes ici.</string>
+    <string name="key_1">kort</string>
+    <string name="key_2">Strings hier.</string>
     <string name="key_3"></string>
 
 </resources>
