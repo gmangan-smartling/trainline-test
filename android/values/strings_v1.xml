@@ -3,6 +3,7 @@
 
     <string name="ticket_1">Short</string>
     <string name="ticket_2">Strings here.</string>
-    <string name="ticket_3">For test.</string>
+    <string name="ticket_3">Branch 2 change</string>
+    <string name="ticket_10">Branch 2 additional key...</string>
 
 </resources>

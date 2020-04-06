@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ticket_1">kort</string>
+    <string name="ticket_2">Strings hier.</string>
+    <string name="ticket_3">Tak 2 wijzigen</string>
+    <string name="ticket_10">Tak 2 extra sleutel ...</string>
+
+</resources>

@@ -3,6 +3,7 @@
 
     <string name="ticket_1">Court</string>
     <string name="ticket_2">Les cordes ici.</string>
-    <string name="ticket_3">Pour test.</string>
+    <string name="ticket_3">Changement de branche 2</string>
+    <string name="ticket_10">Branche 2 clé supplémentaire ...</string>
 
 </resources>
